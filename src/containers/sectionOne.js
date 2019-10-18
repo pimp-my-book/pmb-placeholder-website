@@ -2,7 +2,7 @@ import React from 'react';
 import { Box } from "@chakra-ui/core";
 import Content from "../components/content";
 import sectionImage from "../images/bgSectionOne.png";
-import "../styles/styles.css"
+import "../styles/styles.css";
 
 const SectionOne = () => {
     return(
