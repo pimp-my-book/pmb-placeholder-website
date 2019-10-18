@@ -5,11 +5,11 @@ import "../styles/styles.css";
 
 const Content = (props) => {
     return (
-        <Box bg="#ffffff" color="#000000" className="contentSection">
-            <Text fontSize="60px" m={0} textAlign="center">
+        <Box color="#ffffff" className="contentSection">
+            <Text pt="20%" fontSize="40px" fontWeight="700" textAlign="center">
                 { props.title }
             </Text>
-            <Text fontSize="40px" m={0} textAlign="center">
+            <Text pr="10%" pl="10%" fontSize="30px" m={0} textAlign="center">
                 { props.shortDesc }
             </Text>
         </Box>
