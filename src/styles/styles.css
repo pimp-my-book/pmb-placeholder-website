@@ -42,6 +42,10 @@ code {
   height: 88%
 }
 
+.sectionContainer {
+  background-size: cover
+}
+
 @media (min-width: 320px) and (max-width: 425px) {
   .contentSection {
     margin-right: 0;
