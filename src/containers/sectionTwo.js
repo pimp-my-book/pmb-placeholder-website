@@ -6,11 +6,11 @@ import "../styles/styles.css";
 
 const SectionTwo = () => {
     return(
-        <Box bg="#FF944D" width="100%" height="700px" color="white" overflow="hidden">
-            <Text fontSize="40px" m="0">
-                Section 02
-            </Text>
-            <Content title="More Content" shortDesc="Add some more content here bruv -_-" />
+        <Box className="sectionContainer" bgImage={ "url("+ sectionImage + ")" } bgRepeat="no-repeat" width="100%" height="700px" color="white" overflow="hidden">
+            <Content
+                title="GoGoa"
+                shortDesc="Our bursary division -_-"
+            />
         </Box>
     )
 }
