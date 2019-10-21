@@ -1,7 +1,6 @@
 import React from 'react';
 import { Box } from "@chakra-ui/core";
 import Content from "../components/content";
-//import sectionImage from "https://res.cloudinary.com/wemakeart/image/upload/v1571656529/pmb-placeholder/gogoa-final_mi1ry5.png";
 import "../styles/styles.css";
 
 const SectionTwo = () => {
