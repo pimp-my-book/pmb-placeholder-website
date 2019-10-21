@@ -5,7 +5,7 @@ import "../styles/styles.css";
 
 const Content = (props) => {
     return (
-        <Box color="#ffffff" className="contentSection">
+        <Box className="contentSection">
             <Text pt="20%" fontSize="40px" fontWeight="700" textAlign="center">
                 { props.title }
             </Text>
