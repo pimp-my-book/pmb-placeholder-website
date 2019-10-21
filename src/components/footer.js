@@ -4,7 +4,7 @@ import { Text } from "@chakra-ui/core";
 
 const Footer = () => {
     return(
-        <Box bg="black" width="100%" height="65px" pt="3%" color="white" alignItems="center" overflow="hidden">
+        <Box bg="#ed0677" width="100%" height="60px" pt="3%" color="white" alignItems="center" overflow="hidden">
             <Text fontSize="25px" textAlign="center" m="0">
                 krampus-nuggets <span role="img" aria-label="invader">👾</span>
             </Text>
