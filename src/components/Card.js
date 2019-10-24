@@ -20,13 +20,24 @@ background: white;
 border-radius:10px;
 animation: ${float} 5s infinite ease-in-out;
 `
+const CardInset = styled.div`
+display: flex;
+flex-direction:column;
+align-items:center;
+justify-content: center;
+
+`
 
 const Card = () => {
     return (
         <>
             <CardStyles>
-                Heading
-        </CardStyles>
+                <CardInset>
+                    <h1>Heading</h1>
+                    <h1>Heading</h1>
+                </CardInset>
+
+            </CardStyles>
 
         </>
     )
