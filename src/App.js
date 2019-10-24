@@ -3,7 +3,7 @@ import React from 'react';
 function App() {
   return (
     <div>
-      Pimp My Book
+      <h1>Pimp My Book</h1>
     </div>
   );
 }
