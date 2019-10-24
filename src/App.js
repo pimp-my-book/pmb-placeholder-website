@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Hero from './components/Hero'
 function App() {
   return (
     <div>
-      <h1>Pimp My Book</h1>
+      <Hero />
     </div>
   );
 }
