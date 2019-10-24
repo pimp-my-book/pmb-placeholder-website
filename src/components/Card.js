@@ -28,13 +28,16 @@ justify-content: center;
 
 `
 
-const Card = () => {
+const Card = ({
+    heading,
+    text
+}) => {
     return (
         <>
             <CardStyles>
                 <CardInset>
-                    <h1>Heading</h1>
-                    <h1>Heading</h1>
+                    <h3>{heading}</h3>
+                    <p>{text}</p>
                 </CardInset>
 
             </CardStyles>

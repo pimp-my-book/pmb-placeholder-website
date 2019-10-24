@@ -6,7 +6,10 @@ function App() {
     <div>
       <Hero />
       <div>
-        <Card />
+        <Card
+          heading="GOA"
+          text="Our burasry management app"
+        />
       </div>
     </div>
   );
