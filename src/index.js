@@ -4,6 +4,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { createGlobalStyle } from 'styled-components'
 const GlobalStyle = createGlobalStyle`
+
 @import url('https://fonts.googleapis.com/css?family=Kanit|Rubik+Mono+One&display=swap');
 
 h1,h2,h3 {
@@ -18,9 +19,11 @@ body{
 }
 `
 ReactDOM.render(
-    <GlobalStyle>
+    <>
+        <GlobalStyle />
+
         <App />
-    </GlobalStyle>,
+    </>,
     document.getElementById('root')
 );
 
