@@ -24,9 +24,12 @@ animation: ${float} 5s infinite ease-in-out;
 const Card = () => {
     return (
         <>
+            <CardStyles>
+                Heading
+        </CardStyles>
 
-        <>
-                )
-            }
-            
+        </>
+    )
+}
+
 export default Card
