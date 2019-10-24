@@ -15,7 +15,7 @@ const float = keyframes`
 
 const CardStyles = styled.div`
 width: 253px;
-height: 249px;
+height: 150px;
 background: white;
 border-radius:10px;
 animation: ${float} 5s infinite ease-in-out;
